@@ -1,0 +1,62 @@
+# Nmap 7.98 scan initiated Tue Oct 21 03:47:04 2025 as: C:\\Users\\ankit\\OneDrive\\Desktop\\nmap.exe -sS -oN scan_results.txt 192.168.29.0/24
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0025s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: A8:DA:0C:89:2C:C6 (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.5
+Host is up (0.0074s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: AE:BA:0D:B4:45:01 (Unknown)
+
+Nmap scan report for 192.168.29.69
+Host is up (0.095s latency).
+All 1000 scanned ports on 192.168.29.69 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 5E:99:2A:88:BB:E6 (Unknown)
+
+Nmap scan report for 192.168.29.112
+Host is up (0.0042s latency).
+All 1000 scanned ports on 192.168.29.112 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 26:24:9C:F6:F5:1B (Unknown)
+
+Nmap scan report for 192.168.29.129
+Host is up (0.0041s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 96:AF:EE:3A:F0:2C (Unknown)
+
+Nmap scan report for 192.168.29.248
+Host is up (0.0084s latency).
+All 1000 scanned ports on 192.168.29.248 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 8A:AC:AC:73:F9:92 (Unknown)
+
+Nmap scan report for 192.168.29.238
+Host is up (0.00050s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+
+# Nmap done at Tue Oct 21 03:49:45 2025 -- 256 IP addresses (7 hosts up) scanned in 161.75 seconds
